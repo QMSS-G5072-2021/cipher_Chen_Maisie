@@ -1,4 +1,7 @@
 def cipher(text, shift, encrypt=True):
+    
+    """encrypt text by a set-up number of alphabetical changes"""
+    
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     new_text = ''
     for c in text:
@@ -11,7 +14,6 @@ def cipher(text, shift, encrypt=True):
             new_text += alphabet[new_index:new_index+1]
     return new_text
 
-### describe the function: The function is to encrypt text by a set-up number of alphabetical changes
-### explain its inputs and its output: input is a string of text, output is a new string of ciphered text
-### Provide a short use case example of encrypting and decrypting:
-### cipher("test", 1) should give result "uftu"
+"""input is a string of text, output is a new string of ciphered text"""
+
+"""Provide a short use case example of encrypting and decrypting: cipher("test", 1) should give result "uftu""""
