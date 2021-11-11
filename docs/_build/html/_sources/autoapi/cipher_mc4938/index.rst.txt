@@ -1,0 +1,23 @@
+:py:mod:`cipher_mc4938`
+=======================
+
+.. py:module:: cipher_mc4938
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   cipher_mc4938/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+   
+
+   
+

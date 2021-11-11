@@ -1,0 +1,6 @@
+:py:mod:`cipher_mc4938.cipher_mc4938`
+=====================================
+
+.. py:module:: cipher_mc4938.cipher_mc4938
+
+
